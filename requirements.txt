@@ -1,0 +1,10 @@
+ultralytics==8.0.20
+opencv-python
+torch>=2.0.0
+torchvision
+deep_sort_realtime
+numpy
+scikit-learn
+tqdm
+Pillow
+matplotlib
