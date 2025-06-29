@@ -140,7 +140,7 @@ Place the following in the `/videos/` directory:
 * `tacticam.mp4`
 * `15sec_input_720p.mp4`
 
-Place the model `yolov8.pt` in the root directory:
+Place the model `best.pt` in the model directory:
 
 * [📅 YOLOv8 Model](https://drive.google.com/file/d/1-5fOSHOSB9UXyP_enOoZNAM_ScrePVcMD/view)
 
@@ -160,6 +160,14 @@ python task_1.py
 python task_2.py
 ```
 
+6. **(Optional) View Model Architecture**
+
+```bash
+python model_summery.py
+```
+
+This script loads the YOLOv8 `best.pt` model and prints a detailed summary of the architecture, including the number of parameters and layer structure.
+
 Output videos will be saved in the `/output/` directory.
 
 ---
@@ -167,8 +175,11 @@ Output videos will be saved in the `/output/` directory.
 ## 📩 Contact
 
 **Debjyoti Ghosh**
+
 B.Tech, UEM Kolkata
+
 📧 Email: [debjyoti1ghosh@gmail.com](mailto:debjyoti1ghosh@gmail.com)
+
 🔗 GitHub: [github.com/debjyoti71](https://github.com/debjyoti71)
 
 ---
